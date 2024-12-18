@@ -1,1 +1,53 @@
 /*  your css code here. If applicable */
+ body {
+            width: 1100px;
+            margin: 0 auto; /* Centers the content */
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f3;
+        }
+
+        /* Styling for the container div with image */
+        .imageContainer img {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Table styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        td {
+            border: 1px solid #ccc;
+            vertical-align: top;
+            padding: 10px;
+            text-align: center;
+        }
+
+        td img {
+            width: 100%;
+            height: auto;
+        }
+
+        .textContent {
+            font-size: 14px;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        .textContent h3 {
+            margin: 0;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .link {
+            color: blue;
+            text-decoration: none;
+        }
+
+        .link:hover {
+            text-decoration: underline;
+        }
